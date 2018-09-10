@@ -1,0 +1,38 @@
+.datatable-footer {
+    border: none;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    .dataTables_paginate {
+        margin: 0px;
+        text-align: right;
+        .paginate_button {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 50%;
+            font-size: 14px;
+            color: #191f28;
+            cursor: pointer;
+            &.current {
+                background-color: #4fc3f7;
+                font-weight: bold;
+            }
+            &.disabled {
+                display: none;
+            }
+            &.next,
+            &.previous {
+                width: auto;
+            }
+        }
+    }
+    .dataTables_info {
+        margin: 0px;
+    }
+    .loading {
+        display: inline-block;
+        padding-top: 9px;
+    }
+}

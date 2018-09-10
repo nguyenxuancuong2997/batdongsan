@@ -1,0 +1,236 @@
+.main-container{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.searchMapEx{
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+
+       .container{
+              .row{
+                  .col-md-6{
+                      .bieudo{
+                          width: 100%;
+                          height: 300px;
+                          background: red;
+                          margin-top: 60px;
+                      }
+
+
+                      .bandat{
+                            width:100%;
+                            height: 330px;
+                            background: yellow;
+                            margin-top: 138px;
+                            position: relative;
+
+                            .condat{
+                                   position: absolute;
+                                   background: red;
+                                   top: 3px;
+                                   left: 3px;
+                                   padding: 3px;
+                                   a{
+                                         text-decoration: none;
+                                         color: white;
+                                   }
+                            }
+
+                            .post-description-footer{
+                                 background: red;
+                                 width: 50%;
+                                 position: absolute;
+                                 height: 50px;
+                                 right: 0px;
+                                 bottom: 0px;
+
+                                 .ul-inline{
+                                    display: inline-block !important;
+                                    font-size: 16px;
+                                    display: flex;
+                                     flex-wrap: wrap;
+                                        li{
+                                          
+                                           float: left;
+                                           margin-right: 23px;
+                                           margin-top: 5px;
+                                           margin-left: 26px;
+                                           .price{
+                                                  background-color: #f95537;
+                                                  color: white;
+                                                  font-size: 13px;
+                                                  padding: 5px;
+                                           }
+                                           .item{
+                                                  padding-top: 3px;
+                                           }
+             
+                                         
+                                    }
+                                 
+                                 }
+             
+                                 
+                            }
+                      }
+
+
+                      .mt-10{
+                           margin-top: 10px !important;
+                           margin-bottom: 5px !important;
+                           .col-md-7{
+                                  .full-left{
+                                         float:  left !important;
+                                         text-decoration: none;
+                                         span.post-by-user{
+                                              font-weight: 600px;
+                                              color: #f95537;
+                                              margin-right: 8px;
+                                         }
+
+                                         .btn-subcribe-user{
+                                            width: 75px;
+                                            padding-top: 0px;
+                                            height: 20px;
+                                            background: wheat;
+                                         }
+                                  }
+                           }
+
+
+                      }
+
+
+                      .link{
+                             text-decoration: none;
+
+                             color: black;
+                             font-weight: 600px;
+                      }
+
+                      .diachilienhe{
+                            margin-top: 15px;
+
+                            span{
+                                 color: red !important;
+                            }
+
+                            .chu{
+                                 color: black !important;
+                            }
+                      }
+
+
+                      .icon{
+                             width: 50%;
+                             margin-top: 20px;
+                            
+                .ul-inline{
+                    display: inline-block !important;
+                    font-size: 16px;
+                    display: flex;
+                     flex-wrap: wrap;
+                      li{
+                           margin-right: 10px;
+                           float: left;
+                           a:hover{
+                                  text-decoration: none;
+                           }
+
+                           .price{
+                                  background-color: #f95537;
+                                  color: white;
+                                  font-size: 13px;
+                                  padding: 5px;
+
+
+                               
+                           }
+                           .item{
+                                  padding-top: 3px;
+                                  color: black;
+                                        }
+
+                                        
+                                    }
+                                
+                                }
+
+
+                                    .full-right{
+                                        float: right;
+                                    }
+                             
+                      }
+                  }
+              }
+
+
+              .mt-15{
+                    margin-top: 15px;
+
+                    // .form-group{
+                        
+                    //          .paddleft{
+                    //                padding-left: 0px !important ;
+                    //                padding-right: 0px !important;
+                    //          }
+
+                    //          .fixleft{
+                                
+                    //                margin-right: 10px !important;
+
+                    //                .fixbutton{
+                    //                     background-color: orangered;
+                    //                     font-size: 18px;
+                    //                     color: white;
+                    //                     text-transform: capitalize;  
+                    //                }
+                    //          }
+
+
+                    // }
+
+
+                     .pl-10 {
+                        padding-left: 10px !important;
+
+                     }
+
+                     .pr-10{
+                          padding-right: 10px !important;
+
+                          .form-group{
+                              .form-control-static{
+                                font-size: 13px;
+                                padding-top: 0;
+                                padding-bottom: 0;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                width: 100%;
+                                border: 1px solid #ccc;
+
+                              }
+
+                              .select2-hidden-accessible{
+                                  color: black;
+                              }
+
+                            .btn-type-red{
+                                   color: white;
+                                   background: orangered;
+                            }
+                          }
+                     }
+              }
+       }
+
+}
+
+

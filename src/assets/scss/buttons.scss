@@ -1,0 +1,42 @@
+
+$btn_back : "/assets/buttons/arrow_back_active.svg";
+$btn_back_pressed : "/assets/buttons/arrow_back_tapAndHover.svg";
+
+$btn_next : "/assets/buttons/arrow_next_active.svg";
+$btn_next_pressed : "/assets/buttons/arrow_next_tapAndHover.svg";
+
+$btn_appstore : "/assets/buttons/appStore_active.svg";
+$btn_appstore_pressed : "/assets/buttons/appStore_tapAndHover.svg";
+
+$btn_ggstore : "/assets/buttons/GooglePlay_active.svg";
+$btn_ggstore_pressed : "/assets/buttons/GooglePlay_tapAndHover.svg";
+@import "variables";  
+.btn-normal {
+    height: 55px;
+    background-color: #4fc3f7;
+    color: #000000;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover, &:active {
+        background-color: #91d8f7;
+        color: #000000;
+    }
+}
+
+.btn-submit {
+    height: 55px;
+    width: 210px;
+    background-color: #4fc3f7;
+    color: #000000;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 0;
+    &:hover, &:active {
+        background-color: #91d8f7;
+        color: #000000;
+    }
+    @include mobile{
+        width: 160px;
+        height: 36px;
+    }
+}

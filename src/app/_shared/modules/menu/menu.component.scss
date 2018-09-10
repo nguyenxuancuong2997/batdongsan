@@ -1,0 +1,106 @@
+@import "variable";
+
+section{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background: white;
+    height: 69px;
+    left: 0px;
+    z-index: 999;
+    .container{
+          .row{
+                .col-md-6{
+                     .menu{
+                              float: left;
+                              margin-top: 20px;
+                              margin-left: 20px;
+                              .con{
+                                    background-color: white;
+                                    border:none;
+                                    font-size: 18px;
+                              }
+                              .con:hover{
+                                    color: red;
+                                    text-decoration: underline;
+                              }
+                        }
+                  }
+
+                .col-md-3{
+                      .form{
+                              float: left;
+                              margin-top: 20px;
+                              margin-left: 20px;
+                              .button{
+                                    margin-left: 30px;
+                                    background-color: orangered;
+                                    border-radius: 25px;
+
+                                    font-size: 16px;
+                                    color: white;
+                                    border:none;
+
+                              }  
+                        }
+                  }
+
+                .col-xs-2{
+                        margin-right: 15px;
+                        @include tablet-and-mobile {
+                              margin-right: 10px;
+                        }
+                        @include mobile{
+                              margin-right: 5px;
+                        }
+                 }
+            }
+      }
+}
+
+
+
+// section{
+//         .navbar-custom{
+//             background-color: #3879d9;
+//             border-color: #3879d9;
+//             position: fixed;
+//             top: 0;
+//             width: 100%;
+//             z-index: 99;
+
+
+//             .navbar-header{
+//             .pull-left{
+//                         float: left !important;
+    
+//                 }
+    
+//                 .ml-15{
+//                          margin-left: 15px !important;
+//                          border-radius: 0;
+//                          border-color: transparent !important;
+    
+//                 }
+
+//                 .navbar-brand{
+//                               float: left;
+//                               height: 50px;
+//                               padding: 15px 15px;
+//                               font-size: 18px;
+//                               line-height: 20px;
+//                               .logo{
+//                                  max-height: 30px;
+//                                  width: 100%;
+//                                  img{
+//                                      width: 100px;
+//                                      height: auto;  
+//                                  }
+//                               }
+//                 }
+                  
+//             }
+
+          
+//         }
+// }

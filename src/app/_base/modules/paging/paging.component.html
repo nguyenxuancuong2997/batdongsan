@@ -1,0 +1,11 @@
+<div class="datatable-footer" *ngIf="lstPage.length > 0">
+  <!-- <div class="dataTables_info">Page {{curentPage}}/{{totalPage}} of {{totalItem}} items</div>
+  <div class="loading" *ngIf="loading">
+      <i class="fa fa-circle-o-notch fa-spin" aria-hidden="true"></i> loading...
+  </div> -->
+  <div class="dataTables_paginate paging_simple_numbers">
+    <a (click)="onChangePage(curentPage-1)" [ngClass]="{'disabled':curentPage == 1}" class="paginate_button previous">← Trang trước</a>
+    <a *ngFor="let x of lstPage" (click)="onChangePage(x)" [ngClass]="{'current':x==curentPage}" class="paginate_button">{{x}}</a>
+    <a (click)="onChangePage(curentPage+1)" [ngClass]="{'disabled':curentPage == totalPage}" class="paginate_button next">Trang sau →</a>
+  </div>
+</div>

@@ -1,0 +1,125 @@
+section{
+      width: 100%;
+     height: 500px;
+     background-image: url('/assets/logo.jpg');
+     background-repeat: repeat-x;    
+    
+      .container{
+            .box-search{
+                  z-index: 9;
+                  position: absolute;
+                  height: 160px;
+                  padding: 0 30px;
+                  bottom: -10px;
+                  left: 0;
+                  right: 0;
+                
+
+                    .row{
+                          .col-md-6{
+                                  .form-group{
+                                     form{
+                                         
+                                          #inputext{
+                                                position: relative;
+                                                z-index: 2;
+                                                float: left;
+                                                width: 80%;
+                                                margin-bottom: 0;
+                                                display: table-cell;
+                                                margin: auto;
+                                                margin-top: 53px;
+                                          }
+                                          .input-group-btn{
+                                                .btn-search{
+                                                         min-width: 80px;
+                                                         height: 40px;
+                                                         background-color: turquoise;
+
+                                                         .fa-search{
+                                                            color: #fff;
+                                                            font-weight: normal;
+                                                            border: 1px solid rgba(255,255,255,.6);
+                                                            border-radius: 50%;
+                                                            padding: 4px;
+                                                            width: 23px;
+                                                            height: 23px;
+                                                            font-size: 12px;      
+                                                         }
+                                                }
+                                          }
+                                    }
+                                  }
+                          }
+
+
+                         
+
+                         
+
+
+                    }
+
+                        .list-option-filter{
+                              box-shadow: rgba(0,0,0,.14902) 0 4px 9px !important;
+                              margin:auto;
+
+                              height: 110px !important;
+                          
+                              width: 90%;
+
+                              margin-top: -10px;
+
+                              }
+                     
+                          .bg-white{
+                                   background-color: white !important;
+                                   display: flex;
+                                   flex-wrap: wrap;
+                                
+                                
+                                   .ti-align-justify:before{
+                                    content: "\e6c3";
+
+                                   }
+
+                                    [class^="ti-"]{
+                                          font-size: 17px;
+                                          color: black;
+                                          line-height: 100px;
+                                          font-style: normal;
+                                          font-weight: normal;
+                                          font-variant: normal;
+                                          text-transform: none;
+                                     }
+                                     
+                                     .option-select{
+                                          left: 45px;
+                                          color: #4d4d4d;
+                                          position: absolute;
+                                          top: 34px;
+                                          text-align: left;
+                                          width: 70%;
+
+                                          div{
+                                              
+                                          }
+                                     }
+
+
+                                     .con{
+                                           background-color: gray;
+                                           padding: 35px;
+                                           #form{
+                                                  background: red;
+                                                  border:none;
+                                                  width: 100%;
+                                                  padding: 10px;
+                                                  color: white;
+                                           }
+                                     }
+                    }
+                  
+            }
+      }
+    }
